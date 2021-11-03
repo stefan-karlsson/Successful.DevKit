@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Successful.Domain</PackageId>
+    <Authors>Stefan Karlsson</Authors>
+    <Company>Successful Solutions</Company>
+    <Product>Successful.Domain</Product>
+    <Copyright>Stefan Karlsson</Copyright>
+    <Description>Library containing code that helps out implementing domain driven design (DDD)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/stefan-karlsson/Successful.DevKit.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stefan-karlsson/Successful.DevKit.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Domain Driven Design, DDD</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
+    <NeutralLanguage />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\" />
+  </ItemGroup>
+
+</Project>

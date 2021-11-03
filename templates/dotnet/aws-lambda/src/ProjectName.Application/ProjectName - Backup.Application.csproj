@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ProjectName.Infrastructure\ProjectName.Infrastructure.csproj" />
+    <ProjectReference Include="..\ProjectName.Domain\ProjectName.Domain.csproj" />
+    <ProjectReference Include="..\ProjectName.Infrastructure\ProjectName.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EntityName\Commands\" />
+    <Folder Include="EntityName\Abstractions\" />
+    <Folder Include="EntityName\EventHandlers\" />
+    <Folder Include="EntityName\Responses\" />
+    <Folder Include="EntityName\Queries\" />
+  </ItemGroup>
+
+</Project>
